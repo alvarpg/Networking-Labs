@@ -132,7 +132,7 @@ Dar permisos de administrador añadiendolo al grupo sudo
 
 	sudo usermod -aG sudo admin
 
-#### OpenSSH Server
+#### 3.2 OpenSSH Server
 
 Para poder conectarse, transferir archivos y administrar por remoto el servidor de forma segura se instala el protocolo OpenSSH
 
@@ -167,7 +167,9 @@ Después de realizar los cambios, reinicio del servicio:	sudo systemctl restart 
 
 Para conectarse desde otros dispositivos en la red:	**ssh alvaro@192.168.1.131 -p 2260**
 
-#### Fail2ban
+
+
+#### 3.3 Fail2ban
 
 La función de Fail2ban monitoriza los registros del sistema y actúa frente a ataques de fuerza bruera de la siguiente manera:
 
@@ -198,7 +200,7 @@ Comprobación:
 
 		sudo fail2ban-client status sshd
 
-#### UFW
+#### 3.4 UFW
 El firewall controla qué conexiones pueden salir y entrar al servidor. Mayor seguridad a la hora de navegar por internet
 Las funciones del firewall ufw :
 
