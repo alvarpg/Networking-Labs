@@ -90,7 +90,7 @@ Creamos los servicios DHCP en el router, en este caso configuramos 2 pools disti
   	dns-server 8.8.8.8
   	exit
 
-Comandos útiles de comprobación
+### Comandos útiles de comprobación
 
 **En el switch**
 
