@@ -193,12 +193,20 @@ En el archivo de configuración **/etc/fail2ban/jail.local** hacemos los siguien
 		findtime = 10m
 		bantime = 10m
 
+<img width="1021" height="197" alt="Captura de pantalla 2026-06-03 120556" src="https://github.com/user-attachments/assets/603dfc2c-0aa0-4d5d-8121-0a29bd89ccb5" />
+
+<img width="466" height="285" alt="Captura de pantalla 2026-06-03 173015" src="https://github.com/user-attachments/assets/4da36d65-8225-4acd-a65a-cdd5d6f7ae01" />
+
+
 Reiniciar servicio:	
 
 		sudo systemctl restart fail2ban
 Comprobación:	
 
 		sudo fail2ban-client status sshd
+		
+<img width="644" height="231" alt="Captura de pantalla 2026-06-03 184212" src="https://github.com/user-attachments/assets/10bc5daa-ab4e-4e21-817e-d847a080d559" />
+
 
 #### 3.4 UFW
 El firewall controla qué conexiones pueden salir y entrar al servidor. Mayor seguridad a la hora de navegar por internet
